@@ -1,0 +1,149 @@
+*,
+html {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    justify-content: center;
+    align-items: center;
+    background-image:linear-gradient(rgba(0, 0, 0 , 0.75),rgba(0, 0, 0, 0.75)),url(1011530.png);
+    background-size: cover;
+}
+.container-1 {
+    justify-content: center;
+    align-items: center;
+    background-image:linear-gradient(rgba(0, 0, 0 , 0.75),rgba(0, 0, 0, 0.75)),url(Home1.jpg);
+    background-size: cover;
+}
+.container-2 {
+    justify-content: center;
+    align-items: center;
+    background-image:linear-gradient(rgba(0, 0, 0 , 0.75),rgba(0, 0, 0, 0.75)),url(Home.jpg);
+    background-size: cover;
+}
+.img-fluid {
+    width: 50;
+    height: 50;
+    color-interpolation-filters: white;
+}
+
+.navbar-container {
+    background-color: rgb(6, 36, 233);
+    border-radius: 0ch;
+    width:100%;
+    height: 10vh;
+}
+
+.ul-navbar {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.li-navbar {
+    list-style-type: none;
+    padding: 10px;
+    margin: 5px;
+    color: white;
+    font-size: 20px;
+}
+
+.li-navbar:hover{
+    background-color: royalblue;
+    transition: .4s ease-in-out;
+    transition-delay: .2s;
+    border-radius: 8px;
+}
+
+.a-navbar {
+    color: white;
+    text-decoration: none;
+}
+
+.container-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+    background-image:linear-gradient(rgba(0, 0, 0 , 0.75),rgba(0, 0, 0, 0.75)), url(home\ 1.jpg);
+    background-size: cover;
+}
+
+.img-content {
+    width: 300;
+    height: 300;
+}
+
+.container-footer {
+    height: 40px;
+    background-color: rgb(6, 36, 233);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-table {
+    height: 30px;
+    background-color: rgb(6, 36, 233);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.h1-footer{
+    font-size: 30px;
+}
+
+.tb{
+	border: 1px solid;
+	color: rgb(14, 13, 13);
+	width: 60%;
+	height: 50vh;
+	margin-top: 10px;
+	margin-left: auto; 
+	margin-right: auto;
+}
+.button1{
+	position: absolute;
+	top: 55%;
+	left: 40%;
+	transform: translate(-50%-50%);
+}
+.btn1{
+	border: 2px solid blue;
+	padding: 10px 50px;
+	color: blue;
+	text-decoration: none;
+	transition: 0.6s ease;
+	border-radius: 5px;
+	margin: 10px;
+}
+.btn1:hover{
+	background-color: rgb(61, 128, 227);
+	color: white;
+}
+.btn2{
+	border: 2px solid blue;
+	padding: 10px 50px;
+	color: blue;
+	text-decoration: none;
+	transition: 0.6s ease;
+	border-radius: 5px;
+}
+.btn2:hover{
+	background-color: rgb(61, 128, 227);
+	color: white;
+}
+#tengah{
+	position: absolute;
+	top: 15%;
+	width: 100%;
+	height: 70%;
+	left: 0;
+	right: 0;
+	text-align: center;
+}
+#tengah h1{
+	border: 2px solid;
+    color: blue;
+}
